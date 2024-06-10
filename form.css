@@ -1,0 +1,56 @@
+/* FORM styles */
+.form-container {
+  transform: translateY(-10%);
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #E8EDEE;
+  font-weight: normal;
+  letter-spacing: 2px;
+  transform: translateY(70%);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  transform: translateY(30%);
+}
+
+form label {
+  margin-bottom: 0.25rem;
+}
+
+form input, form button {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+form button {
+  margin-top: 10px;
+  background-color: #21D0B3;
+  color: #E8EDEE; /* bttn text color */
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #146D76;
+}
+
+/* Success message style */
+.success-message {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(33, 208, 179, 0.75);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  letter-spacing: 1px;
+}

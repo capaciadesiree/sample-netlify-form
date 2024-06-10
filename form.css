@@ -1,3 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #002C5D;
+  background-position: center;
+  background-size: cover;
+}
+
 /* FORM styles */
 .form-container {
   transform: translateY(-10%);
